@@ -1,7 +1,7 @@
 'use strict';
-const Keyboard = require('./index'); // Imports the Keyboard class
+const Keyboard = require('./index'); 
 
-const keyboard = new Keyboard('event0'); // Or try 'event7' if needed
+const keyboard = new Keyboard('event0'); 
 
 console.log("Listening for keyboard events on /dev/input/event0...");
 
